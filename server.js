@@ -10,5 +10,6 @@ app.use(function(req, res, next) {
   });
 
 app.use("/emp",reouteEmp)
+
 app.get('/', (req, res) => res.send('Hello World!'))
 app.listen(9898, () => console.log(`Example app listening on port 9898!`))
