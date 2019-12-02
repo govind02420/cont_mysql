@@ -2,7 +2,7 @@ var express = require('express');
 var emp = express();
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-    host : "172.18.4.115 ",
+    host : "172.18.4.115",
     database : "devops",
     user : "root",
     password : "root",
